@@ -1,0 +1,61 @@
+/* .themify_builder_12_row.module_row_0 Style */
+.themify_builder_12_row.module_row_0.module_row {
+	text-align: center;
+	padding-top : 14em;
+	padding-bottom : 14em
+}
+.themify_builder_12_row.module_row_0.module_row>.builder_row_cover {
+	background:rgba(0,0,0, 0.40)
+}
+
+.themify_builder .text-12-0-0-1.module.module-text h1 { color: #ffffff;  } 
+.themify_builder .text-12-0-0-2.module-text { color: #ffffff;  } 
+.themify_builder .text-12-0-0-2.module-text h1 { color: #ffffff;  } 
+.themify_builder .text-12-0-0-2.module-text h2 { color: #ffffff;  } 
+.themify_builder .text-12-0-0-2.module-text h3:not(.module-title) { color: #ffffff;  } 
+.themify_builder .text-12-0-0-2.module-text h4 { color: #ffffff;  } 
+.themify_builder .text-12-0-0-2.module-text h5 { color: #ffffff;  } 
+.themify_builder .text-12-0-0-2.module-text h6 { color: #ffffff;  } 
+@media screen and (max-width: 640px) {}.themify_builder .icon-12-0-0-3 div.module-icon .module-icon-item i { color: #ffffff; color: rgba(255,255,255, 0.50);  } 
+.themify_builder .icon-12-0-0-3 div.module-icon .module-icon-item:hover i { color: #ffffff; color: rgba(255,255,255, 0.75);  } 
+/* .themify_builder_12_row.module_row_1 Style */
+.themify_builder_12_row.module_row_1.module_row {
+	padding-bottom : 3em;
+	border-bottom: #d4d4d4 1px solid
+}
+
+.module_row_1 .module_column_0.tb_12_column{width:14.8411%;}.module_row_1 .module_column_1.tb_12_column{width:64.3642%;}.themify_builder .text-12-1-1-2.module-text { margin-bottom: -2em;  } 
+.module_row_1 .module_column_2.tb_12_column{width:14.3966%;}/* .themify_builder_12_row.module_row_2 Style */
+.themify_builder_12_row.module_row_2.module_row {
+	text-align: center;
+	padding-top : 3em;
+	padding-bottom : 3em
+}
+
+.themify_builder .text-12-2-0-3.module-text { margin-bottom: -2em;  } 
+/* .themify_builder_12_row.module_row_3 Style */
+.themify_builder_12_row.module_row_3.module_row {
+	text-align: center;
+	padding-top : 3em;
+	padding-bottom : 3em
+}
+
+.themify_builder .text-12-3-0-3.module-text { margin-bottom: -2em;  } 
+/* .themify_builder_12_row.module_row_4 Style */
+.themify_builder_12_row.module_row_4.module_row {
+	text-align: center;
+	padding-top : 3em;
+	padding-bottom : 3em
+}
+
+.themify_builder .text-12-4-0-3.module-text { margin-bottom: -2em;  } 
+/* .themify_builder_12_row.module_row_5 Style */
+.themify_builder_12_row.module_row_5.module_row {
+	background-color: #2a2a2e;
+	text-align: center;
+	padding-top : 6em;
+	padding-bottom : 6em
+}
+
+.themify_builder .widget-12-5-0-1.module-widget { color: #ffffff; margin-bottom: -2.5em;  } 
+.themify_builder .widget-12-5-0-1.module-widget a { color: #ffffff;  } 

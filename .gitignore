@@ -1,0 +1,6 @@
+.htaccess
+.DS_Store
+tmp/*
+cache/*
+.sass-cache/*
+wp-config.php

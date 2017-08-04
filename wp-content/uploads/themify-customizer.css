@@ -1,0 +1,10 @@
+/* Themify Customize Styling */
+#main-nav a, #main-nav > li > a {	
+	color: #8b8b9f; 
+}
+#main-nav a:hover, #main-nav > li > a:hover {	
+	color: #000000; 
+}
+#main-nav .current_page_item a, #main-nav .current-menu-item a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #000000; 
+}
