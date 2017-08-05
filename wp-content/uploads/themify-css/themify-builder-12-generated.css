@@ -8,6 +8,7 @@
 	background:rgba(0,0,0, 0.40)
 }
 
+.themify_builder .text-12-0-0-1.module-text { margin-bottom: -0.75em;  } 
 .themify_builder .text-12-0-0-1.module.module-text h1 { color: #ffffff;  } 
 .themify_builder .text-12-0-0-2.module-text { color: #ffffff;  } 
 .themify_builder .text-12-0-0-2.module-text h1 { color: #ffffff;  } 
@@ -16,8 +17,9 @@
 .themify_builder .text-12-0-0-2.module-text h4 { color: #ffffff;  } 
 .themify_builder .text-12-0-0-2.module-text h5 { color: #ffffff;  } 
 .themify_builder .text-12-0-0-2.module-text h6 { color: #ffffff;  } 
-@media screen and (max-width: 640px) {}.themify_builder .icon-12-0-0-3 div.module-icon .module-icon-item i { color: #ffffff; color: rgba(255,255,255, 0.50);  } 
-.themify_builder .icon-12-0-0-3 div.module-icon .module-icon-item:hover i { color: #ffffff; color: rgba(255,255,255, 0.75);  } 
+@media screen and (max-width: 640px) {}.themify_builder .icon-12-0-0-3 div.module-icon { padding-top: 2em;  } 
+.themify_builder .icon-12-0-0-3 div.module-icon .module-icon-item i { color: #ffffff; color: rgba(255,255,255, 0.35);  } 
+.themify_builder .icon-12-0-0-3 div.module-icon .module-icon-item:hover i { color: #ffffff; color: rgba(255,255,255, 0.45);  } 
 /* .themify_builder_12_row.module_row_1 Style */
 .themify_builder_12_row.module_row_1.module_row {
 	padding-bottom : 3em;
