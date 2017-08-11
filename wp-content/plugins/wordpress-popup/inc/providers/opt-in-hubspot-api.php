@@ -195,11 +195,7 @@ class Opt_In_HubSpot_Api extends Opt_In_WPMUDEV_API {
 			     || isset( $body->status ) && 'error' == $body->status )
 				return $body;
 		}
-
-		$error = new WP_Error();
-		$error->add( $response['response']['code'], $response['response']['message'] );
-
-		return $error;
+		return $response;
 	}
 
 	/**

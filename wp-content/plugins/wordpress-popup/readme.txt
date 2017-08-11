@@ -2,7 +2,7 @@
 Contributors: WPMUDEV
 Tags: marketing, floating social, pop-up, slide-in, opt-in, email, advertise, signup, mailing list
 Requires at least: 3.1
-Tested up to: 4.7
+Tested up to: 4.8.1
 Stable tag: trunk
 
 The complete marketing plugin for email opt-ins, pop-up advertising, social sharing, and building your user base.
@@ -103,6 +103,17 @@ No! Hustle gives you all the same settings and options as Hustle Pro. The only d
 4. Quickly create and display a floating social sharing icon bar.
 
 == Changelog ==
+
+= 5.1.4 =
+* New HubSpot integration (static list).
+* Improved ConstantContact integration.
+* Improved InfusionSoft integration.
+* Improved AWeber integration.
+* Improved Mautic integration.
+* Improved SendInBlue integration.
+* Improved Opt-in when provider not set but uses "Save Emails to local list".
+* Fixed Opt-in signup button not showing on some layouts.
+* Fixed Custom Content front-end JavaScript errors.
 
 = 5.1.3.2 =
 * Improved compatibility with PHP 5.2 and 5.3.

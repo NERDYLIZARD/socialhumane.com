@@ -3,7 +3,7 @@
 Plugin Name: Hustle
 Plugin URI: https://premium.wpmudev.org/project/hustle/
 Description: Start collecting email addresses and quickly grow your mailing list with big bold pop-ups, slide-ins, widgets, or in post opt-in forms.
-Version: 5.1.3.2
+Version: 5.1.4
 Author: WPMU DEV
 Author URI: https://premium.wpmudev.org
 
@@ -124,6 +124,13 @@ class Opt_In extends Opt_In_Static{
             "file_name" => "opt-in-mailchimp.php",
             "class_name" => "Opt_In_Mailchimp"
         ),
+        array(
+            "id" => "constantcontact",
+            "name" => "ConstantContact",
+            "file_name" => "opt-in-constantcontact.php" ,
+            "class_name" => "Opt_In_ConstantContact"
+        ),
+
 		array(
 			'id' => 'convertkit',
 			'name' => 'ConvertKit',
@@ -135,6 +142,12 @@ class Opt_In extends Opt_In_Static{
             "name" => "GetResponse",
             "file_name" => "opt-in-get-response.php",
             "class_name" => "Opt_In_Get_Response"
+        ),
+        array(
+            "id" => "hubspot",
+            "name" => "Hubspot",
+            "file_name" => "opt-in-hubspot.php",
+            "class_name" => "Opt_In_HubSpot",
         ),
         array(
             "id" => "sendy",
@@ -173,7 +186,8 @@ class Opt_In extends Opt_In_Static{
      * these providers will be skipped on PHP version lower than 5.3
      */
     protected $_skip_providers = array(
-        'mautic'
+        'mautic',
+        'constantcontact'
     );
 
     /**
@@ -752,6 +766,12 @@ $optin_front = new Opt_In_Front( $hustle );
 $legacy_popups = new Hustle_Legacy_Popups( $hustle );
 // Hubspot
 $hustle_hubpost = new Opt_In_HubSpot_Api();
+
+if ( version_compare( PHP_VERSION, '5.3', '>=' ) ) {
+    //Constant Contact
+    $hustle_constantcontact = new Opt_In_ConstantContact_Api();
+}
+
 
 if( is_admin() ) {
     $optin_admin = new Opt_In_Admin( $hustle, $email_services  );
