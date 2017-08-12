@@ -6,3 +6,7 @@ Template: themify-ultra
 */
 
 @import url("../themify-ultra/style.css");
+
+.tiled-gallery-item {
+	width:auto !important;
+}
